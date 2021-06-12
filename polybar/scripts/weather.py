@@ -14,9 +14,16 @@
 
 
 import requests
+import yaml
+
+with open("/home/ad/.config/api.yaml") as api_file:
+    try:
+       api = yaml.full_load(api_file)
+    except yaml.YAMLError as exc:
+        print(exc)
 
 CITY = "2761369"
-API_KEY = "4fa997ddaa995f3f039aff08cb4bb96b"
+API_KEY = api["weather"]
 UNITS = "Metric"
 UNIT_KEY = "C"
 LANG = "en"
