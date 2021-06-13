@@ -113,9 +113,9 @@ module-margin-left = 3
 module-margin-right = 3
 
 ;https://github.com/jaagr/polybar/wiki/Fonts
-font-0 = "DejaVu Sans:size=10;1"
-font-1 = "FontAwesome:size=10;1"
-font-2 = "DejaVu Sans:size=10;0"
+font-0 = "Ubuntu:size=10;1"
+font-1 = "Fira Code Nerd Font:size=10;1"
+font-2 = "Ubuntu:size=10;0"
 font-3 = "Fira Code:size=10;0"
 
 modules-left = bspwm xwindow
@@ -180,9 +180,9 @@ module-margin-left = 3
 module-margin-right = 3
 
 ;https://github.com/jaagr/polybar/wiki/Fonts
-font-0 = "DejaVu Sans:size=10;0"
-font-1 = "FontAwesome:size=13;0"
-font-2 = "DejaVu Sans:size=10;0"
+font-0 = "Ubuntu:size=10;0"
+font-1 = "FiraCode Nerd Font:size=13;0"
+font-2 = "Ubuntu:size=10;0"
 font-3 = "Fira Code:size=10;0"
 
 modules-left = load-average
@@ -455,7 +455,7 @@ type = internal/cpu
 interval = 1
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
-format-prefix = " "
+format-prefix = "龍  "
 format-prefix-foreground = #81A2BE
 ;format-underline = #cd1f3f
 
@@ -699,7 +699,7 @@ interval = 1
 label = %gb_used%
 
 format = <label>
-format-prefix = "   "
+format-prefix = "   "
 format-prefix-foreground = #8ABEB7
 ;format-underline = #3384d0
 format-foreground = ${colors.foreground}
