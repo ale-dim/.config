@@ -3,7 +3,7 @@ modi: "window,drun,ssh,run";
 /*	width: 50;*/
 /*	lines: 15;*/
 columns: 2;
-	font: "Fira Code 10";
+	font: "Ubuntu 10";
 /*	bw: 1;*/
 /*	location: 0;*/
 /*	padding: 5;*/
@@ -149,4 +149,4 @@ columns: 2;
 /*	me-accept-entry: "MouseDPrimary";*/
 /*	me-accept-custom: "Control+MouseDPrimary";*/
 }
-@import "/usr/share/rofi/themes/Arc-Dark-Havelock.rasi"
+@import "/usr/share/rofi/themes/ArcoLinux-Nord.rasi"
