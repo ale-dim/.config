@@ -77,13 +77,14 @@ volume-max = #bf616a
 monitor = ${env:MONITOR}
 ;monitor-fallback = HDMI1
 width = 100%
-height = 26
+height = 30
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0.0
 fixed-center = true
 bottom = false
 separator = |
+separator-foreground = #B294BB
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -112,8 +113,8 @@ module-margin-left = 3
 module-margin-right = 3
 
 ;https://github.com/jaagr/polybar/wiki/Fonts
-font-0 = "DejaVu Sans:size=10;3"
-font-1 = "FontAwesome:size=10;3"
+font-0 = "DejaVu Sans:size=10;1"
+font-1 = "FontAwesome:size=10;1"
 font-2 = "DejaVu Sans:size=10;0"
 font-3 = "Fira Code:size=10;0"
 
@@ -232,12 +233,12 @@ label-focused = %icon%
 label-focused-background = ${colors.background}
 ;label-focused-underline= #6790eb
 label-focused-padding = 2
-label-focused-foreground = #5E81AC
+label-focused-foreground = #81A2BE
 
 label-occupied = %icon%
 label-occupied-padding = 2
 label-occupied-background = ${colors.background}
-label-occupied-foreground = #4c566a
+label-occupied-foreground = #ffffff
 
 label-urgent = %icon%
 label-urgent-padding = 2
@@ -247,26 +248,26 @@ label-empty-foreground = ${colors.foreground}
 label-empty-padding = 2
 label-empty-background = ${colors.background}
 label-monocle = "  "
-label-monocle-foreground = ${colors.foreground}
+label-monocle-foreground = #B5BD68
 label-tiled = "  "
-label-tiled-foreground = ${colors.foreground}
+label-tiled-foreground = #B5BD68
 label-fullscreen = "  "
-label-fullscreen-foreground = ${colors.foreground}
+label-fullscreen-foreground = #B5BD68
 label-floating = "  "
-label-floating-foreground = ${colors.foreground}
+label-floating-foreground = #B5BD68
 label-pseudotiled = "  "
-label-pseudotiled-foreground = ${colors.foreground}
+label-pseudotiled-foreground = #B5BD68
 label-locked = "  "
-label-locked-foreground = ${colors.foreground}
+label-locked-foreground = #B5BD68
 label-sticky = "  "
-label-sticky-foreground = ${colors.foreground}
+label-sticky-foreground = #B5BD68
 label-private =  "     "
-label-private-foreground = ${colors.foreground}
+label-private-foreground = #B5BD68
 
 ; Separator in between workspaces
 ;label-separator = |
-;label-separator-padding = 10
-;label-separator-foreground = #ffb52a
+;label-separator-padding = 0
+;label-separator-foreground = #B294BB
 
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
@@ -455,7 +456,7 @@ interval = 1
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix = " "
-format-prefix-foreground = #ffffff
+format-prefix-foreground = #81A2BE
 ;format-underline = #cd1f3f
 
 label-font = 0
@@ -699,7 +700,7 @@ label = %gb_used%
 
 format = <label>
 format-prefix = "   "
-format-prefix-foreground = #ffffff
+format-prefix-foreground = #8ABEB7
 ;format-underline = #3384d0
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
@@ -1051,7 +1052,7 @@ format-muted-background = ${colors.background}
 type = custom/script
 interval = 10
 format = <label>
-format-prefix = " "
+;format-prefix = " "
 format-prefix-foreground = #ffffff
 ;format-underline = #3EC13F
 format-foreground = ${colors.foreground}
