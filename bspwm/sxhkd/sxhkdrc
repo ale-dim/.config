@@ -227,9 +227,9 @@ alt + Return
 alt + p
     rofi -show drun
 
-#Rofi Fullscreen
-alt + ctrl + p
-    rofi -show drun -fullscreen
+#Rofi Powermenu
+alt + super + p
+    rofi -show p -modi p:rofi-power-menu
 
 #Rofi theme selector
 ctrl + alt + r
