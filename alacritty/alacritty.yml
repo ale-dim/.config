@@ -18,7 +18,7 @@ background_opacity: 0.97
 # Nord
 colors:
   primary:
-    background: '#2e3440'
+    background: '#1E1F29'
     foreground: '#d8dee9'
     dim_foreground: '#a5abb6'
   cursor:

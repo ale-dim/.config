@@ -37,4 +37,4 @@ try:
     else:
         print("Error: BAD HTTP STATUS CODE " + str(REQ.status_code))
 except (ValueError, IOError):
-    print("Error: Unable print the data")
+    print("Error: Unable to print the data")
