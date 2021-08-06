@@ -1,13 +1,13 @@
 delay=1
 region=3
-action=8
+action=1
 show_mouse=0
 title=ArcoLinux
 timestamp=TRUE
 app=gimp-2.10
 last_user=
 last_extension=png
-screenshot_dir=file:///home/ad/Pictures
+screenshot_dir=file:/home/ad/Pictures/Screenshots
 enable_imgur_upload=true
 show_border=1
 

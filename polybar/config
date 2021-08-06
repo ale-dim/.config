@@ -114,13 +114,13 @@ module-margin-right = 3
 
 ;https://github.com/jaagr/polybar/wiki/Fonts
 font-0 = "Ubuntu:size=10;1"
-font-1 = "Fira Code Nerd Font:size=10;1"
+font-1 = "Fira Code:size=10;1"
 font-2 = "Ubuntu:size=10;0"
 font-3 = "Fira Code:size=10;0"
 
 modules-left = bspwm xwindow
 modules-center = popup-calendar weather
-modules-right = cpu2 memory2
+modules-right = 
 
 tray-detached = false
 tray-offset-x = 0
@@ -181,7 +181,7 @@ module-margin-right = 3
 
 ;https://github.com/jaagr/polybar/wiki/Fonts
 font-0 = "Ubuntu:size=10;0"
-font-1 = "FiraCode Nerd Font:size=13;0"
+font-1 = "Fira Code:size=13;0"
 font-2 = "Ubuntu:size=10;0"
 font-3 = "Fira Code:size=10;0"
 
@@ -792,8 +792,8 @@ format-connected-background = ${colors.background}
 
 [module/pacman-updates]
 type = custom/script
-;exec = pacman -Qu | wc -l
-exec = checkupdates | wc -l
+exec = pacman -Qu | wc -l
+;exec = checkupdates | wc -l
 interval = 1000
 label = Repo: %output%
 format-foreground = ${colors.foreground}
